@@ -4,7 +4,7 @@ import java.sql.SQLException;
 import java.util.List;
 
 public interface Repository <T>{
-
+    //metodo para recoger todos los datos de la db
     List<T> findAll() throws SQLException;
 
     T getById(Integer id) throws SQLException;
